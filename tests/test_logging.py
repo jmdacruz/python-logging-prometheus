@@ -1,7 +1,7 @@
 import unittest
 import logging
 from prometheus_client import REGISTRY
-import logging_prometheus
+from logging_prometheus import register
 
 
 class TestLoggingPrometheus(unittest.TestCase):
